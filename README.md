@@ -19,7 +19,7 @@ rsWindowsUpdate set_options
 
 
 
-Configure Windows Update to pull from Microsoft WSUS server
+Configure Windows Update to pull from Microsoft update server (UseWUServer = 0)
 
 rsWindowsUpdate set_options
 {
