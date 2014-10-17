@@ -10,17 +10,17 @@ rsWebConfiguration
 
 
 Configure Windows Update install and reboot, leaving all other settings to default/existing
-<pre>
+
 rsWindowsUpdate set_options
 {
 	Ensure = "Present"
 	AUOptions = "4"
 }
-</pre>
+
 
 
 Configure Windows Update to pull from Microsoft WSUS server
-<pre>
+
 rsWindowsUpdate set_options
 {
 	Ensure = "Present"
@@ -31,11 +31,11 @@ rsWindowsUpdate set_options
 	ScheduledInstallTime = "20"
 	UseWUServer = "0"
 }
-</pre>
+
 
 
 Configure Windows Update to pull from specific WSUS server (customer or RAX for Dedicated)
-<pre>
+
 rsWindowsUpdate set_options
 {
 	Ensure = "Present"
@@ -48,14 +48,14 @@ rsWindowsUpdate set_options
 	WUStatusServer = "https://mywsusserver.contoso.local"
 	UseWUServer = "1"
 }
-</pre>
+
 
 
 Remove Windows Update settings
 
-<pre>
+
 rsWindowsUpdate remove_settings
 {
 	Ensure = "Absent"
 }
-</pre>
+
