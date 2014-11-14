@@ -1,4 +1,4 @@
-rsWebConfiguration
+rsWindowsUpdate
 ==================
 ```PoSh
 
@@ -58,4 +58,3 @@ rsWindowsUpdate remove_settings
 {
 	Ensure = "Absent"
 }
-
