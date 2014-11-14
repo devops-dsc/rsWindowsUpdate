@@ -3,10 +3,10 @@
 ModuleVersion = '1.0'
 
 # ID used to uniquely identify this module
-GUID = '063f49c3-01f4-49f4-ac02-bc56fd9c7cd9'
+GUID = 'fc7e3fc4-ca15-4163-ac7e-441e0eb19873'
 
 # Author of this module
-Author = 'Jon Madison'
+Author = 'Rackspace'
 
 # Company or vendor of this module
 CompanyName = 'Rackspace'
@@ -15,7 +15,7 @@ CompanyName = 'Rackspace'
 Copyright = '(c) 2014 Rackspace. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Module with DSC Resource for Windows Update settings configuration'
+Description = 'Module with DSC Resources for rsWindowsUpdate area'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '4.0'
