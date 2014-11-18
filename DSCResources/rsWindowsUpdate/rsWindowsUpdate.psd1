@@ -1,12 +1,22 @@
+﻿#
+# Module manifest for module 'rsPlatform'
+#
+# Generated on: 3/19/2014
+#
+
 @{
+
+# Script module or binary module file associated with this manifest.
+RootModule = 'rsWindowsUpdate.schema.psm1'
+
 # Version number of this module.
-ModuleVersion = '1.1'
+ModuleVersion = '1.0'
 
 # ID used to uniquely identify this module
-GUID = 'fc7e3fc4-ca15-4163-ac7e-441e0eb19873'
+GUID = '0795ea7e-8d99-4771-8960-1cc396f521b9'
 
 # Author of this module
-Author = 'Rackspace'
+Author = ''
 
 # Company or vendor of this module
 CompanyName = 'Rackspace'
@@ -15,17 +25,19 @@ CompanyName = 'Rackspace'
 Copyright = '(c) 2014 Rackspace. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Module with DSC Resources for rsWindowsUpdate area'
-
-# Minimum version of the Windows PowerShell engine required by this module
-PowerShellVersion = '4.0'
-
-# Minimum version of the common language runtime (CLR) required by this module
-CLRVersion = '4.0'
+Description = 'Test'
 
 # Functions to export from this module
 FunctionsToExport = '*'
 
 # Cmdlets to export from this module
 CmdletsToExport = '*'
+
+# Variables to export from this module
+VariablesToExport = '*'
+
+# Aliases to export from this module
+AliasesToExport = '*'
+
 }
+
